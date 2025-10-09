@@ -41,7 +41,7 @@ import DefaultMainLayout from "@/layouts/DefaultMainLayout.vue";
           </div>
           <div class="col-lg-7 col-12">
             <div class="hero-image wow fadeInRight" data-wow-delay=".4s">
-              <img class="main-image" src="@/assets/images/home/hero-image.png" alt="#" />
+              <img class="main-image" src="@/assets/images/home/hero-image.webp" alt="#" />
             </div>
           </div>
         </div>
@@ -83,7 +83,7 @@ import DefaultMainLayout from "@/layouts/DefaultMainLayout.vue";
         <div class="row align-items-center">
           <div class="col-lg-6 col-12">
             <div class="image wow fadeInLeft" data-wow-delay=".3s">
-              <img src="@/assets/images/home/feature-img.png" alt="#" />
+              <img src="@/assets/images/home/feature-img.webp" alt="#" />
             </div>
           </div>
           <div class="col-lg-6 col-12">

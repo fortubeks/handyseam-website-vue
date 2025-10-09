@@ -1,5 +1,7 @@
 // Import CSS files
-import '@/assets/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 import '@/assets/css/LineIcons.3.0.css';
 import '@/assets/css/animate.css';
 import '@/assets/css/tiny-slider.css';
@@ -21,9 +23,9 @@ app.mixin({
   mounted() {
     // Dynamically load JS libraries only once (client-side only)
     if (typeof window !== 'undefined') {
-      import('@/assets/js/bootstrap.min.js')
-        .then(() => console.log('Bootstrap JS loaded'))
-        .catch(err => console.error('Failed to load Bootstrap', err));
+      // import('@/assets/js/bootstrap.min.js')
+      //   .then(() => console.log('Bootstrap JS loaded'))
+      //   .catch(err => console.error('Failed to load Bootstrap', err));
 
       import('@/assets/js/main.js')
         .then(() => console.log('Custom main.js loaded'))
