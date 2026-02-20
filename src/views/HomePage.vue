@@ -289,7 +289,7 @@ import DefaultMainLayout from "@/layouts/DefaultMainLayout.vue";
                 <p class="sub-title">Complete package</p>
                 <div class="price">
                   <h2 class="amount">
-                    <span class="currency">₦</span>2,500<span class="duration">/month</span>
+                    <span class="currency">₦</span>3,500<span class="duration">/month</span>
                   </h2>
                 </div>
               </div>
