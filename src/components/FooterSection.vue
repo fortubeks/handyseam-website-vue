@@ -61,7 +61,7 @@ import logo from "../assets/images/logo/logo-white.png";
               <div class="single-footer f-link">
                 <h3>Company</h3>
                 <ul>
-                  <li><a href="javascript:void(0)">About Us</a></li>
+                  <li><a href="/about-us">About Us</a></li>
                   <li><a href="javascript:void(0)">Carrers</a></li>
                   <li><a href="javascript:void(0)">Press</a></li>
                   <li><a href="javascript:void(0)">Contact</a></li>

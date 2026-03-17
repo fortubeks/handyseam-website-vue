@@ -31,7 +31,7 @@ import logo from "../assets/images/logo/logo.png";
                     <a href="/" class="active" aria-label="Toggle navigation">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a href="/#features" aria-label="Toggle navigation">About</a>
+                    <a href="/about-us" aria-label="Toggle navigation">About</a>
                   </li>
                   <li class="nav-item">
                     <a href="/#pricing" aria-label="Toggle navigation">Pricing</a>
