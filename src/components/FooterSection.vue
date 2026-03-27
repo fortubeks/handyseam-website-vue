@@ -23,21 +23,15 @@ import logo from "../assets/images/logo/logo-white.png";
                 <h4 class="social-title">Follow Us On:</h4>
                 <ul class="social">
                   <li>
-                    <a href="https://www.facebook.com/tailorapp.ng/"
-                      ><i class="lni lni-facebook-filled"></i
-                    ></a>
+                    <a href="https://www.facebook.com/tailorapp.ng/"><i class="lni lni-facebook-filled"></i></a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/handyseam/"
-                      ><i class="lni lni-instagram"></i
-                    ></a>
+                    <a href="https://www.instagram.com/handyseam/"><i class="lni lni-instagram"></i></a>
                   </li>
                   <!-- <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a></li>
                                 <li><a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a></li> -->
                   <li>
-                    <a href="https://www.youtube.com/@fortranhouse"
-                      ><i class="lni lni-youtube"></i
-                    ></a>
+                    <a href="https://www.youtube.com/@fortranhouse"><i class="lni lni-youtube"></i></a>
                   </li>
                 </ul>
               </div>
@@ -46,12 +40,12 @@ import logo from "../assets/images/logo/logo-white.png";
             <div class="col-lg-3 col-md-6 col-12">
               <!-- Single Widget -->
               <div class="single-footer f-link">
-                <h3>Resources</h3>
+                <h3>Product</h3>
                 <ul>
-                  <li><a href="javascript:void(0)">Blog</a></li>
-                  <li><a href="javascript:void(0)">FAQs</a></li>
-                  <li><a href="javascript:void(0)">Support</a></li>
-                  <li><a href="/privacy-policy">Privacy Policy</a></li>
+                  <li><a href="/#features">Features</a></li>
+                  <li><a href="/#pricing">Pricing</a></li>
+                  <li><a href="/faq">FAQs</a></li>
+                  <li><a href="https://wa.me/2348090839412">Support</a></li>
                 </ul>
               </div>
               <!-- End Single Widget -->
@@ -61,10 +55,10 @@ import logo from "../assets/images/logo/logo-white.png";
               <div class="single-footer f-link">
                 <h3>Company</h3>
                 <ul>
+                  <li><a href="/">Home</a></li>
                   <li><a href="/about-us">About Us</a></li>
-                  <li><a href="javascript:void(0)">Carrers</a></li>
-                  <li><a href="javascript:void(0)">Press</a></li>
-                  <li><a href="javascript:void(0)">Contact</a></li>
+                  <li><a href="/privacy-policy">Privacy Policy</a></li>
+                  <li><a href="https://wa.me/2348090839412">Contact</a></li>
                 </ul>
               </div>
               <!-- End Single Widget -->

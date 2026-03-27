@@ -1,5 +1,14 @@
 <script setup>
+import { useRoute } from "vue-router";
 import logo from "../assets/images/logo/logo.png";
+
+const route = useRoute();
+
+const isActive = (path) => {
+  if (path === "/" && route.path === "/") return true;
+  if (path !== "/" && route.path.startsWith(path)) return true;
+  return false;
+};
 </script>
 <template>
   <header class="header navbar-area">
@@ -12,15 +21,9 @@ import logo from "../assets/images/logo/logo.png";
               <a class="navbar-brand" href="/">
                 <img v-bind:src="logo" alt="Logo" />
               </a>
-              <button
-                class="navbar-toggler mobile-menu-btn"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
+              <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="toggler-icon"></span>
                 <span class="toggler-icon"></span>
                 <span class="toggler-icon"></span>
@@ -28,10 +31,11 @@ import logo from "../assets/images/logo/logo.png";
               <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                 <ul id="nav" class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a href="/" class="active" aria-label="Toggle navigation">Home</a>
+                    <a href="/" :class="{ active: isActive('/') }" aria-label="Toggle navigation">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a href="/about-us" aria-label="Toggle navigation">About</a>
+                    <a href="/about-us" :class="{ active: isActive('/about-us') }"
+                      aria-label="Toggle navigation">About</a>
                   </li>
                   <li class="nav-item">
                     <a href="/#pricing" aria-label="Toggle navigation">Pricing</a>
