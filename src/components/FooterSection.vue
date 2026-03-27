@@ -45,7 +45,7 @@ import logo from "../assets/images/logo/logo-white.png";
                   <li><a href="/#features">Features</a></li>
                   <li><a href="/#pricing">Pricing</a></li>
                   <li><a href="/faq">FAQs</a></li>
-                  <li><a href="https://wa.me/2348090839412">Support</a></li>
+                  <li><a href="https://wa.me/2349165426799">Support</a></li>
                 </ul>
               </div>
               <!-- End Single Widget -->
@@ -58,7 +58,7 @@ import logo from "../assets/images/logo/logo-white.png";
                   <li><a href="/">Home</a></li>
                   <li><a href="/about-us">About Us</a></li>
                   <li><a href="/privacy-policy">Privacy Policy</a></li>
-                  <li><a href="https://wa.me/2348090839412">Contact</a></li>
+                  <li><a href="https://wa.me/2349165426799">Contact</a></li>
                 </ul>
               </div>
               <!-- End Single Widget -->
