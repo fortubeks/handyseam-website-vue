@@ -1,5 +1,5 @@
 <script setup>
-import logo from "../assets/images/logo/logo-white.png";
+import logo from "../assets/images/logo/logo.png";
 </script>
 <template>
   <footer class="footer section">
@@ -12,7 +12,7 @@ import logo from "../assets/images/logo/logo-white.png";
               <!-- Single Widget -->
               <div class="single-footer f-about">
                 <div class="logo">
-                  <a href="{{route('home')}}">
+                  <a href="/">
                     <img v-bind:src="logo" alt="#" />
                   </a>
                 </div>
@@ -94,7 +94,7 @@ import logo from "../assets/images/logo/logo-white.png";
             <div class="col-lg-6 col-md-6 col-12">
               <p class="copyright-owner">
                 Designed and Developed by
-                <a href="https://fortranhouse.com/" target="_blank">Fortran House</a>
+                <a href="https://fortranhouse.com/" target="_blank">Fortran House Technologies</a>
               </p>
             </div>
           </div>
