@@ -359,7 +359,7 @@ import FAQSection from "@/components/FAQSection.vue";
                 </div>
                 <div class="intro-video-play">
                   <div class="play-thumb wow zoomIn" data-wow-delay=".2s">
-                    <a href="https://youtu.be/OlwkXZ5_qYI?si=5BeoXEEhEZJIVXse" class="glightbox video"><i
+                    <a href="https://youtu.be/jCxekbtOALI" class="glightbox video"><i
                         class="lni lni-play"></i></a>
                   </div>
                 </div>
@@ -408,7 +408,7 @@ import GLightbox from "glightbox";
 
 //========= glightbox
 GLightbox({
-  href: "https://youtu.be/OlwkXZ5_qYI?si=5BeoXEEhEZJIVXse",
+  href: "https://youtu.be/jCxekbtOALI",
   type: "video",
   source: "youtube", //vimeo, youtube or local
   width: 900,
